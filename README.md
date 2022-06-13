@@ -1,7 +1,5 @@
 # DOCKER CRASH COURSE
 
-## 🐳 What is Docker?
-
 Docker is a software framework for building, running, and managing containers on servers and the cloud.
 
 ## 🤔 Why Docker?
@@ -10,7 +8,13 @@ Docker is a software framework for building, running, and managing containers on
 - Docker is faster since it only virtualizes operating system
 - By using isolated containers, if it works here it will work anywhere
 
-<img src="./images/docker_vs_vm.png" alt="Demo2">
+<img src="./images/docker_vs_vm.png" alt="Docker vs virtual machines">
+
+## 🛠 Installation
+
+https://docs.docker.com/get-docker/
+
+Simple and easy for Mac and Linux. For Windows, a subsystem for linux called WSL is required.
 
 ## 📖 Chapters
 
