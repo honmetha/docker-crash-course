@@ -16,6 +16,10 @@ https://docs.docker.com/get-docker/
 
 Simple and easy for Mac and Linux. For Windows, a subsystem for linux called WSL is required.
 
+## 🐳 Workflow
+
+<img src="./images/workflow.png" alt="Docker workflow">
+
 ## 📖 Chapters
 
 1. What is Docker?
