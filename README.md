@@ -24,6 +24,32 @@ Simple and easy for Mac and Linux. For Windows, a subsystem for linux called WSL
 
 <img src="./images/docker-hub.jpg" alt="Docker hub">
 
+## 🤖 Basic Commands
+
+```sh
+docker images
+```
+
+```sh
+docker ps
+```
+
+```sh
+docker ps -a
+```
+
+```sh
+docker stop myapp
+```
+
+```sh
+docker run --name myapp_c1 -p 4000:4000 -d myapp
+```
+
+```sh
+docker start myapp_c1
+```
+
 ## 📖 Chapters
 
 1. What is Docker?
