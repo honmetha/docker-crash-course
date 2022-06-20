@@ -39,6 +39,10 @@ docker ps -a
 ```
 
 ```sh
+docker build -t myapp .
+```
+
+```sh
 docker run --name myapp_c1 -p 4000:4000 -d myapp
 ```
 
