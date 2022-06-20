@@ -39,15 +39,15 @@ docker ps -a
 ```
 
 ```sh
-docker stop myapp
-```
-
-```sh
 docker run --name myapp_c1 -p 4000:4000 -d myapp
 ```
 
 ```sh
 docker start myapp_c1
+```
+
+```sh
+docker stop myapp_c1
 ```
 
 ## 📖 Chapters
