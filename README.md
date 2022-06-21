@@ -43,7 +43,15 @@ docker build -t myapp .
 ```
 
 ```sh
+docker build -t myapp:v1 .
+```
+
+```sh
 docker run --name myapp_c1 -p 4000:4000 -d myapp
+```
+
+```sh
+docker run --name myapp_c1 -p 4000:4000 -d myapp:v1
 ```
 
 ```sh
@@ -52,6 +60,26 @@ docker start myapp_c1
 
 ```sh
 docker stop myapp_c1
+```
+
+```sh
+docker image rm myapp
+```
+
+```sh
+docker image rm -f myapp
+```
+
+```sh
+docker container rm myapp_c1
+```
+
+```sh
+docker container rm myapp_c1 myapp_c2
+```
+
+```sh
+docker system prune -a
 ```
 
 ## 📖 Chapters
