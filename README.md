@@ -55,6 +55,14 @@ docker run --name myapp_c1 -p 4000:4000 -d myapp:v1
 ```
 
 ```sh
+docker run --name myapp_c_nodemon -p 4000:4000 --rm myapp:nodemon
+```
+
+```sh
+docker run --name myapp_c_nodemon -p 4000:4000 --rm -v /my/local/path:/app -v /app/node_modules myapp:nodemon
+```
+
+```sh
 docker start myapp_c1
 ```
 
