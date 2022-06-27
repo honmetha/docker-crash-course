@@ -31,15 +31,7 @@ docker images
 ```
 
 ```sh
-docker ps
-```
-
-```sh
 docker ps -a
-```
-
-```sh
-docker build -t myapp .
 ```
 
 ```sh
@@ -47,19 +39,11 @@ docker build -t myapp:v1 .
 ```
 
 ```sh
-docker run --name myapp_c1 -p 4000:4000 -d myapp
+docker run --name myapp_c1 -p 4000:4000 -d --rm myapp:v1
 ```
 
 ```sh
-docker run --name myapp_c1 -p 4000:4000 -d myapp:v1
-```
-
-```sh
-docker run --name myapp_c_nodemon -p 4000:4000 --rm myapp:nodemon
-```
-
-```sh
-docker run --name myapp_c_nodemon -p 4000:4000 --rm -v /my/local/path:/app -v /app/node_modules myapp:nodemon
+docker run --name myapp_c1 -p 4000:4000 --rm -v /local/path:/app -v /app/node_modules myapp:v1
 ```
 
 ```sh
@@ -71,15 +55,7 @@ docker stop myapp_c1
 ```
 
 ```sh
-docker image rm myapp
-```
-
-```sh
 docker image rm -f myapp
-```
-
-```sh
-docker container rm myapp_c1
 ```
 
 ```sh
@@ -88,6 +64,18 @@ docker container rm myapp_c1 myapp_c2
 
 ```sh
 docker system prune -a
+```
+
+```sh
+docker-compose up
+```
+
+```sh
+docker-compose down
+```
+
+```sh
+docker --rmi all -v
 ```
 
 ## 📖 Chapters
