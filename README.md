@@ -78,9 +78,13 @@ docker-compose down
 docker --rmi all -v
 ```
 
-## 📙 Image
+## 🏗️ Image to build
 
 https://hub.docker.com/r/honmetha/myapi
+
+```sh
+docker pull honmetha/myapi
+```
 
 ## 📖 Chapters
 
