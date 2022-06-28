@@ -22,7 +22,7 @@ Simple and easy for Mac and Linux. For Windows, a subsystem for linux called WSL
 
 ## 🐳 Docker Hub
 
-<img src="./images/docker-hub.jpg" alt="Docker hub">
+<img src="./images/docker-hub.png" alt="Docker hub">
 
 ## 🤖 Basic Commands
 
